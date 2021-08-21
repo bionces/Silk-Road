@@ -1,0 +1,38 @@
+a{
+	text-decoration: none;
+}
+
+html,
+body {
+	font-family: 'Cabin', sans-serif;
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1351px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.containerlarge{
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+

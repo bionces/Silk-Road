@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header id="header" class="header">
+  <div class="content-container">
+  <div class="header__inner container">
+  <div class="header__brand">
+  <a href="/" class="header__logo">
+  <img src="./images/logomain.png" alt="logo silkRoad" class="" loading="lazy">
+  </a>
+  </div>
+  <div class="header__navigations">
+  <div class="header__navigation-1">
+  <button aria-labelledby="Search" class="header__navigation-item header__navigation-1-item header__search-toggle" data-target=".main-menu__item--search">
+ <img src="./images/favorite.svg" alt="">
+  </button>
+  <button class="header__navigation-item header__navigation-1-item header__favorite-toggle">
+  <img src="./images/search.svg" alt="">
+  </button>
+  
+  <button class="header__navigation-item header__navigation-1-item header__submenu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop4" aria-controls="offcanvasTop">
+  <img src="./images/menu.svg" alt="">
+  </button>
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop4" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body containerlarge">
+      <div class="menu__inner">
+        <div class="language">
+          <button class="select btn-language header__navigation-item header__navigation-2-item-lang">
+              <img src="./images/language.png" alt="language">
+              Global Language
+          </button>
+          <div class="language__option">
+            <div class="option"><img src="./images/language.png" width="40"alt="1" /> Kyrgyz</div>
+            <div class="option"><img src="./images/russian.png" width="40"alt="2" /> Russian</div>
+            <div class="option"><img src="./images/french.png" width="40"alt="3" /> French</div>
+            <div class="option"><img src="./images/german.png" width="40"alt="4" /> German</div>
+            <div class="option"><img src="./images/chinese.png" width="40"alt="5" /> Chinese</div>
+          </div>
+        </div>
+        <div class="menu__inner-links">
+          <a href="#" class="menu__inner-link">Contact us</a>
+          <a href="#" class="menu__inner-link">Terms of use</a>
+          <a href="#" class="menu__inner-link">Kyrgyzstan travel information</a>
+          <a href="#" class="menu__inner-link">COVID- 19 travel guidelines</a>
+          <a href="#" class="menu__inner-link">Privacy policy</a>
+        </div>
+      </div>
+      </div>
+  </div>
+  </div>
+  <nav class="header__navigation-2 default">
+    <button class="btn-header header__navigation-item header__navigation-2-item"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Destinations</button>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body containerlarge">
+    <div class="tab">
+      <button class="tablinks" onclick="openPost(event, 'Regions')">Regions</button>
+      <button class="tablinks" onclick="openPost(event, 'Towns')">Towns</button>
+    </div>
+    
+    <div id="Regions" class="tabcontent">
+      <div class="navigation__destinations-states-inner">
+        <div class="navigation__destinations-states--region">
+          <div class="navigation__destinations-states--region-header">
+          <div class="navigation__destinations-states--region-images">
+          <img src="./images/map.png" alt="">
+          </div>
+            <p class="navigations__destinations-states-title">
+              Chui
+            </p>
+          </div>
+          <ul class="navigation__destinations-states-states">
+          <li class="navigation__destinations-states-state">
+          <a href="./destination.html" class="navigation__destinations-states-link">Moskva</a>
+          </li>
+          <li class="navigation__destinations-states-state">
+            <a href="#" class="navigation__destinations-states-link">Moskva</a>
+            </li>
+            <li class="navigation__destinations-states-state">
+              <a href="#" class="navigation__destinations-states-link">Moskva</a>
+              </li>
+              <li class="navigation__destinations-states-state">
+                <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+                <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+          </ul>
+          </div>
+          <div class="navigation__destinations-states--region">
+            <div class="navigation__destinations-states--region-header">
+            <div class="navigation__destinations-states--region-images">
+            <img src="./images/map.png" alt="">
+            </div>
+              <p class="navigations__destinations-states-title">
+                Chui
+              </p>
+            </div>
+            <ul class="navigation__destinations-states-states">
+            <li class="navigation__destinations-states-state">
+            <a href="#" class="navigation__destinations-states-link">Moskva</a>
+            </li>
+            <li class="navigation__destinations-states-state">
+              <a href="#" class="navigation__destinations-states-link">Moskva</a>
+              </li>
+              <li class="navigation__destinations-states-state">
+                <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+                <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+                  <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+            </ul>
+            </div>
+            <div class="navigation__destinations-states--region">
+              <div class="navigation__destinations-states--region-header">
+              <div class="navigation__destinations-states--region-images">
+              <img src="./images/map.png" alt="">
+              </div>
+                <p class="navigations__destinations-states-title">
+                  Chui
+                </p>
+              </div>
+              <ul class="navigation__destinations-states-states">
+              <li class="navigation__destinations-states-state">
+              <a href="#" class="navigation__destinations-states-link">Moskva</a>
+              </li>
+              <li class="navigation__destinations-states-state">
+                <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+                <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+                  <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+                    <li class="navigation__destinations-states-state">
+                      <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+              </ul>
+              </div>
+              <div class="navigation__destinations-states--region">
+                <div class="navigation__destinations-states--region-header">
+                <div class="navigation__destinations-states--region-images">
+                <img src="./images/map.png" alt="">
+                </div>
+                  <p class="navigations__destinations-states-title">
+                    Chui
+                  </p>
+                </div>
+                <ul class="navigation__destinations-states-states">
+                <li class="navigation__destinations-states-state">
+                <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+                <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+                  <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+                    <li class="navigation__destinations-states-state">
+                      <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                      </li>
+                      <li class="navigation__destinations-states-state">
+                        <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                      </li>
+                </ul>
+                </div>
+                <div class="navigation__destinations-states--region">
+                  <div class="navigation__destinations-states--region-header">
+                  <div class="navigation__destinations-states--region-images">
+                  <img src="./images/map.png" alt="">
+                  </div>
+                    <p class="navigations__destinations-states-title">
+                      Chui
+                    </p>
+                  </div>
+                  <ul class="navigation__destinations-states-states">
+                  <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+                  <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+                    <li class="navigation__destinations-states-state">
+                      <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                      </li>
+                      <li class="navigation__destinations-states-state">
+                        <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                        </li>
+                        <li class="navigation__destinations-states-state">
+                          <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                        </li>
+                  </ul>
+                  </div>
+                  <div class="navigation__destinations-states--region">
+                    <div class="navigation__destinations-states--region-header">
+                    <div class="navigation__destinations-states--region-images">
+                    <img src="./images/map.png" alt="">
+                    </div>
+                      <p class="navigations__destinations-states-title">
+                        Chui
+                      </p>
+                    </div>
+                    <ul class="navigation__destinations-states-states">
+                    <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+                    <li class="navigation__destinations-states-state">
+                      <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                      </li>
+                      <li class="navigation__destinations-states-state">
+                        <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                        </li>
+                        <li class="navigation__destinations-states-state">
+                          <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                          </li>
+                          <li class="navigation__destinations-states-state">
+                            <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                          </li>
+                    </ul>
+                    </div>
+      </div>
+      <div class="navigation__destinations-states-inner">
+        <div class="navigation__destinations-states--region">
+          <div class="navigation__destinations-states--region-header">
+          <div class="navigation__destinations-states--region-images">
+          <img src="./images/map.png" alt="">
+          </div>
+            <p class="navigations__destinations-states-title">
+              Chui
+            </p>
+          </div>
+          <ul class="navigation__destinations-states-states">
+          <li class="navigation__destinations-states-state">
+          <a href="#" class="navigation__destinations-states-link">Moskva</a>
+          </li>
+          <li class="navigation__destinations-states-state">
+            <a href="#" class="navigation__destinations-states-link">Moskva</a>
+            </li>
+            <li class="navigation__destinations-states-state">
+              <a href="#" class="navigation__destinations-states-link">Moskva</a>
+              </li>
+              <li class="navigation__destinations-states-state">
+                <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+                <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+          </ul>
+          </div>
+          <div class="navigation__destinations-states--region">
+            <div class="navigation__destinations-states--region-header">
+            <div class="navigation__destinations-states--region-images">
+            <img src="./images/map.png" alt="">
+            </div>
+              <p class="navigations__destinations-states-title">
+                Chui
+              </p>
+            </div>
+            <ul class="navigation__destinations-states-states">
+            <li class="navigation__destinations-states-state">
+            <a href="#" class="navigation__destinations-states-link">Moskva</a>
+            </li>
+            <li class="navigation__destinations-states-state">
+              <a href="#" class="navigation__destinations-states-link">Moskva</a>
+              </li>
+              <li class="navigation__destinations-states-state">
+                <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+                <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+                  <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+            </ul>
+            </div>
+            <div class="navigation__destinations-states--region">
+              <div class="navigation__destinations-states--region-header">
+              <div class="navigation__destinations-states--region-images">
+              <img src="./images/map.png" alt="">
+              </div>
+                <p class="navigations__destinations-states-title">
+                  Chui
+                </p>
+              </div>
+              <ul class="navigation__destinations-states-states">
+              <li class="navigation__destinations-states-state">
+              <a href="#" class="navigation__destinations-states-link">Moskva</a>
+              </li>
+              <li class="navigation__destinations-states-state">
+                <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+                <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+                  <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+                    <li class="navigation__destinations-states-state">
+                      <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+              </ul>
+              </div>
+              <div class="navigation__destinations-states--region">
+                <div class="navigation__destinations-states--region-header">
+                <div class="navigation__destinations-states--region-images">
+                <img src="./images/map.png" alt="">
+                </div>
+                  <p class="navigations__destinations-states-title">
+                    Chui
+                  </p>
+                </div>
+                <ul class="navigation__destinations-states-states">
+                <li class="navigation__destinations-states-state">
+                <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                </li>
+                <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+                  <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+                    <li class="navigation__destinations-states-state">
+                      <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                      </li>
+                      <li class="navigation__destinations-states-state">
+                        <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                      </li>
+                </ul>
+                </div>
+                <div class="navigation__destinations-states--region">
+                  <div class="navigation__destinations-states--region-header">
+                  <div class="navigation__destinations-states--region-images">
+                  <img src="./images/map.png" alt="">
+                  </div>
+                    <p class="navigations__destinations-states-title">
+                      Chui
+                    </p>
+                  </div>
+                  <ul class="navigation__destinations-states-states">
+                  <li class="navigation__destinations-states-state">
+                  <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                  </li>
+                  <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+                    <li class="navigation__destinations-states-state">
+                      <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                      </li>
+                      <li class="navigation__destinations-states-state">
+                        <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                        </li>
+                        <li class="navigation__destinations-states-state">
+                          <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                        </li>
+                  </ul>
+                  </div>
+                  <div class="navigation__destinations-states--region">
+                    <div class="navigation__destinations-states--region-header">
+                    <div class="navigation__destinations-states--region-images">
+                    <img src="./images/map.png" alt="">
+                    </div>
+                      <p class="navigations__destinations-states-title">
+                        Chui
+                      </p>
+                    </div>
+                    <ul class="navigation__destinations-states-states">
+                    <li class="navigation__destinations-states-state">
+                    <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                    </li>
+                    <li class="navigation__destinations-states-state">
+                      <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                      </li>
+                      <li class="navigation__destinations-states-state">
+                        <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                        </li>
+                        <li class="navigation__destinations-states-state">
+                          <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                          </li>
+                          <li class="navigation__destinations-states-state">
+                            <a href="#" class="navigation__destinations-states-link">Moskva</a>
+                          </li>
+                    </ul>
+                    </div>
+      </div>
+    </div>
+    
+    <div id="Towns" class="tabcontent">
+      <div class="form-item form-type-textfield search-block__form">
+        <input placeholder="Search by city" title="Search by city" type="text" name="search_block_form" value="" size="15" maxlength="128" class="form-text search-bar__field">
+        </div>
+        <div class="navigation__cities-items container">
+          <div class="navigation__cities-items-inner">
+          <div class="navigation__cities-state">
+            <h3 class="navigation__cities-heading">Naryn</h3>
+            <ul class="navigation__cities-items">
+            <li class="navigation__cities-item">
+            <a href="./destination.html" class="navigation__cities-link">At-Bashy</a>
+            </li>
+            <li class="navigation__cities-item">
+              <a href="#" class="navigation__cities-link">At-Bashy</a>
+              </li>
+              <li class="navigation__cities-item">
+                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                </li>
+                <li class="navigation__cities-item">
+                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                  </li>
+                  <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+            </ul>
+            <ul class="navigation__cities-items">
+              <li class="navigation__cities-item">
+              <a href="#" class="navigation__cities-link">At-Bashy</a>
+              </li>
+              <li class="navigation__cities-item">
+                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                </li>
+                <li class="navigation__cities-item">
+                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                  </li>
+                  <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+              </ul>
+              <ul class="navigation__cities-items">
+                <li class="navigation__cities-item">
+                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                </li>
+                <li class="navigation__cities-item">
+                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                  </li>
+                  <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                </ul>
+            </div>
+            <div class="navigation__cities-state">
+              <h3 class="navigation__cities-heading">Naryn</h3>
+              <ul class="navigation__cities-items">
+              <li class="navigation__cities-item">
+              <a href="#" class="navigation__cities-link">At-Bashy</a>
+              </li>
+              <li class="navigation__cities-item">
+                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                </li>
+                <li class="navigation__cities-item">
+                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                  </li>
+                  <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+              </ul>
+              <ul class="navigation__cities-items">
+                <li class="navigation__cities-item">
+                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                </li>
+                <li class="navigation__cities-item">
+                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                  </li>
+                  <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                </ul>
+                <ul class="navigation__cities-items">
+                  <li class="navigation__cities-item">
+                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                  </li>
+                  <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                  </ul>
+              </div>
+              <div class="navigation__cities-state">
+                <h3 class="navigation__cities-heading">Naryn</h3>
+                <ul class="navigation__cities-items">
+                <li class="navigation__cities-item">
+                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                </li>
+                <li class="navigation__cities-item">
+                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                  </li>
+                  <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                </ul>
+                <ul class="navigation__cities-items">
+                  <li class="navigation__cities-item">
+                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                  </li>
+                  <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                  </ul>
+                  <ul class="navigation__cities-items">
+                    <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                            <li class="navigation__cities-item">
+                              <a href="#" class="navigation__cities-link">At-Bashy</a>
+                              </li>
+                    </ul>
+                </div>
+                <div class="navigation__cities-state">
+                  <h3 class="navigation__cities-heading">Naryn</h3>
+                  <ul class="navigation__cities-items">
+                  <li class="navigation__cities-item">
+                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                  </li>
+                  <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                  </ul>
+                  <ul class="navigation__cities-items">
+                    <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                            <li class="navigation__cities-item">
+                              <a href="#" class="navigation__cities-link">At-Bashy</a>
+                              </li>
+                    </ul>
+                    <ul class="navigation__cities-items">
+                      <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                            <li class="navigation__cities-item">
+                              <a href="#" class="navigation__cities-link">At-Bashy</a>
+                              </li>
+                              <li class="navigation__cities-item">
+                                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                </li>
+                      </ul>
+                  </div>
+                  <div class="navigation__cities-state">
+                    <h3 class="navigation__cities-heading">Naryn</h3>
+                    <ul class="navigation__cities-items">
+                    <li class="navigation__cities-item">
+                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                    </li>
+                    <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                            <li class="navigation__cities-item">
+                              <a href="#" class="navigation__cities-link">At-Bashy</a>
+                              </li>
+                    </ul>
+                    <ul class="navigation__cities-items">
+                      <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                            <li class="navigation__cities-item">
+                              <a href="#" class="navigation__cities-link">At-Bashy</a>
+                              </li>
+                              <li class="navigation__cities-item">
+                                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                </li>
+                      </ul>
+                      <ul class="navigation__cities-items">
+                        <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                            <li class="navigation__cities-item">
+                              <a href="#" class="navigation__cities-link">At-Bashy</a>
+                              </li>
+                              <li class="navigation__cities-item">
+                                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                </li>
+                                <li class="navigation__cities-item">
+                                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                  </li>
+                        </ul>
+                    </div>
+                    <div class="navigation__cities-state">
+                      <h3 class="navigation__cities-heading">Naryn</h3>
+                      <ul class="navigation__cities-items">
+                      <li class="navigation__cities-item">
+                      <a href="#" class="navigation__cities-link">At-Bashy</a>
+                      </li>
+                      <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                            <li class="navigation__cities-item">
+                              <a href="#" class="navigation__cities-link">At-Bashy</a>
+                              </li>
+                              <li class="navigation__cities-item">
+                                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                </li>
+                      </ul>
+                      <ul class="navigation__cities-items">
+                        <li class="navigation__cities-item">
+                        <a href="#" class="navigation__cities-link">At-Bashy</a>
+                        </li>
+                        <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                            <li class="navigation__cities-item">
+                              <a href="#" class="navigation__cities-link">At-Bashy</a>
+                              </li>
+                              <li class="navigation__cities-item">
+                                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                </li>
+                                <li class="navigation__cities-item">
+                                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                  </li>
+                        </ul>
+                        <ul class="navigation__cities-items">
+                          <li class="navigation__cities-item">
+                          <a href="#" class="navigation__cities-link">At-Bashy</a>
+                          </li>
+                          <li class="navigation__cities-item">
+                            <a href="#" class="navigation__cities-link">At-Bashy</a>
+                            </li>
+                            <li class="navigation__cities-item">
+                              <a href="#" class="navigation__cities-link">At-Bashy</a>
+                              </li>
+                              <li class="navigation__cities-item">
+                                <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                </li>
+                                <li class="navigation__cities-item">
+                                  <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                  </li>
+                                  <li class="navigation__cities-item">
+                                    <a href="#" class="navigation__cities-link">At-Bashy</a>
+                                    </li>
+                          </ul>
+                      </div>
+
+          </div>
+          
+        </div>
+    </div>
+    
+  </div>
+</div>
+<button class="btn-header header__navigation-item header__navigation-2-item"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop2" aria-controls=" Top">Trips</button>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop2" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body containerlarge">
+    <div class="navigation__trips--media-items">
+      <div class="media-item navigation__trips--media-item">
+      <a href="#" class="media-item__image-link" target="_blank">
+      <div class="media-item__image">
+      <img src="./images/trips1.png" alt="photo" class="mCS_img_loaded lazyloaded" loading="lazy">
+      </div>
+      </a>
+      <h2 class="trips__title">Active tours</h2>
+      </div>
+      <div class="media-item navigation__trips--media-item">
+        <a href="#" class="media-item__image-link" target="_blank">
+        <div class="media-item__image">
+        <img src="./images/trips1.png" alt="photo" class="mCS_img_loaded lazyloaded" loading="lazy">
+        </div>
+        </a>
+        <h2 class="trips__title">Active tours</h2>
+        </div>
+  </div>
+  <div class="trips__buttons">
+    <div class="trips__first-btn">
+      <a href="#" class="trips__first-btn-link">View all trips</a>
+    </div>
+    <div class="trips__second-btn">
+      <a href="#" class="trips__second-btn-link">Trip planner</a>
+    </div>
+  </div>
+</div>
+</div>
+<button class="btn-header header__navigation-item header__navigation-2-item"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop3" aria-controls="Top">Adventure Stories</button>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop3" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body containerlarge">
+    <div class="adv__inner">
+      <h2 class="adv__title">Become part of our Adventure Stories</h2>
+      <div class="adv__buttons">
+        <div class="adv__first-btn">
+          <a href="#" class="adv__first-btn-link">View all trips</a>
+        </div>
+        <div class="adv__second-btn">
+          <a href="#" class="adv__second-btn-link">Trip planner</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- <a class="header__navigation-item header__navigation-2-item" href="./destination.html" id="destination-list" data-target=".navigation__destinations">
+  Destinations
+  </a>
+  <a class="header__navigation-item header__navigation-2-item" href="./destination.html" data-target=".navigation__trips">
+  Trips
+  </a>
+  <a class="header__navigation-item header__navigation-2-item" href="#" data-target=".navigation__experiences">
+  Experiences
+  </a> -->
+  </nav>
+  </div>
+  </div>
+  </div>
+</header>
+
+<header id="header--sticky" class="header--sticky">
+<div class="content-container">
+<div class="header__inner">
+<div class="header__brand-sticky">
+<a href="/" class="header__logo">
+<img src="./images/logo.png" title="Visit the USA logo" alt="Visit the USA logo" class="" loading="lazy">
+</a>
+</div>
+<div class="header__navigations-sticky">
+<nav class="header__navigation-2 default">
+  <button class="btn-header header__navigation-item header__navigation-2-item-sticky"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Destinations</button>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  </div>
+</div>
+<button class="btn-header header__navigation-item header__navigation-2-item-sticky"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop2" aria-controls="Top">Trips</button>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop2" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  </div>
+</div>
+<button class="btn-header header__navigation-item header__navigation-2-item-sticky"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop3" aria-controls="Top">Adventure Stories</button>
+
+<div class="offcanvas offcanvas_top" tabindex="-1" id="offcanvasTop3" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  </div>
+</div>
+<!-- <a class="header__navigation-item header__navigation-2-item-sticky " href="./destination.html" id="destination-list" data-target=".navigation__destinations">
+Destinations
+</a>
+<a class="header__navigation-item header__navigation-2-item-sticky " href="#" data-target=".navigation__trips">
+Trips
+</a>
+<a class="header__navigation-item header__navigation-2-item-sticky " href="#" data-target=".navigation__experiences">
+Experiences
+</a> -->
+</nav>
+<div class="header__navigation-1">
+  <button aria-labelledby="Search" class="header__navigation-item header__navigation-1-item header__search-toggle" data-target=".main-menu__item--search">
+  <img src="./images/favorite.svg" alt="">
+  </button>
+  <a class="header__navigation-item header__navigation-1-item header__favorite-toggle" href="/bookmarks">
+  <img src="./images/search.svg" alt="">
+  </a>
+  <button class="header__navigation-item header__navigation-1-item header__submenu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop4" aria-controls="offcanvasTop">
+    <img src="./images/menu.svg" alt="">
+    </button>
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop4" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body containerlarge">
+        <div class="menu__inner">
+          <div class="language">
+            <button class="select btn-language header__navigation-item header__navigation-2-item-lang">
+                <img src="./images/language.png" alt="language">
+                Global Language
+            </button>
+            <div class="language__option">
+              <div class="option"><img src="./images/language.png" width="40"alt="1" /> Kyrgyz</div>
+              <div class="option"><img src="./images/russian.png" width="40"alt="2" /> Russian</div>
+              <div class="option"><img src="./images/french.png" width="40"alt="3" /> French</div>
+              <div class="option"><img src="./images/german.png" width="40"alt="4" /> German</div>
+              <div class="option"><img src="./images/chinese.png" width="40"alt="5" /> Chinese</div>
+            </div>
+          </div>
+          <div class="menu__inner-links">
+            <a href="#" class="menu__inner-link">Contact us</a>
+            <a href="#" class="menu__inner-link">Terms of use</a>
+            <a href="#" class="menu__inner-link">Kyrgyzstan travel information</a>
+            <a href="#" class="menu__inner-link">COVID- 19 travel guidelines</a>
+            <a href="#" class="menu__inner-link">Privacy policy</a>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</header>
+  
+  <div class="main">
+    <div class="blur"></div>
+    <div class="main__banner container-banner"><img src="./images/main__banner.png" alt="" class="main__banner-img"></div>
+    <div class="main__inner container-banner">
+      <div class="main__left ">
+    <h2 class="main__title">Dream now. Explore later
+      Silk Road travel guide</h2>
+      <p class="main__subtitle">the official travel site  of  central asia</p>
+      <ul class="nav">
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <button class="main__btn">Search trip</button>
+      </ul>    
+    </div>
+  </div>
+  </div>
+  <section class="center container">
+      <div class="center__inner">
+        <div class="center__text">
+          <h2 class="center__text-title">Editorial foreword </h2>
+          <p class="center__text-subtitle">The Silk Road Travel Guide is the flagship gigital consumer baran within the Ministry of Travel and Social Development under the Government of Kytgyz Republic. Available in English, Russian and Kygyz version. This guide provides The Silk Road Travel Guide is the flagship gigital consumer baran within the Ministry of Travel and Social Development under the Government of Kytgyz Republic. Available in English, Russian and Kygyz version. This guide provides
+            <span id="dots">...</span><span id="more">The Silk Road Travel Guide is the flagship gigital consumer baran within the Ministry of Travel and Social Development under the Government of Kytgyz Republic. Available in English, Russian and Kygyz version. This guide provides</span><button onclick="myFunction()" id="myBtn" class="center__text-btn">Read more</button></p>
+          
+        </div>
+      </div>
+  </section>
+  <section class="trip container">
+    <div class="trip__inner">
+      <div class="trip__left">
+        <img src="./images/trip1.png" alt="trip">
+      </div>
+      <div class="trip__right">
+        <h2 class="trip__right-title">One of the best places to visit 
+          in Central Asia</h2>
+        <p class="trip__right-subtitle">Did you know that according to <span>“The Guardian”</span> selection
+          the Kyrgyzstan is on the mostly recommended country
+          to visit in Central Asia</p>
+          <button class="trip__btn"><a href="/inside.html">Plan your trip</a></button>
+          <div class="trip__right-images">
+            <img src="./images/trip2.png" alt="trip2" class="trip__right-images-2">
+            <img src="./images/trip3.png" alt="trip3">
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="slider container">
+    <div class="slider__inner">
+      <h2 class="slider__text">See these stunning Landscapes</h2>
+      <div class="slider__slide">
+        <div class="slider__slide-img">
+          <div class="slider__slide-image"><img src="./images/slider1.png" alt="Chui"><p class="slider__slide-image-text">Chui</p></div>
+          <div class="slider__slide-image"><img src="./images/slider1.png" alt="Chui"><p class="slider__slide-image-text">Chui</p></div>
+          <div class="slider__slide-image"><img src="./images/slider1.png" alt="Chui"><p class="slider__slide-image-text">Chui</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="story">
+    <div class="story__text container">
+      <h2 class="story__text-title">Become part of Silk Road Adventure Story</h2>
+    </div>
+    <div class="story__img">
+      <img src="./images/story.png" alt="story">
+    </div>
+    <div class="story__text container">
+      <p class="story__text-subtitle">Becoming a member of the Silk Road community comes with a whole host of benefits. 
+        Ясность нашей позиции очевидна: внедрение современных методик представляет собой интересный эксперимент проверки направлений прогрессивного развития.</p>
+    </div>
+    <div class="input-group mb-3 container">
+      <input type="text" class="form-control" placeholder="Please , leave your comments " aria-label="Please , leave your comments " aria-describedby="button-addon2">
+      <button class="btn btn-warning" type="button" id="button-addon2"><a href="/inside.html">Sign In</a></button>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__img">
+      <img src="./images/footer.png" alt="">
+    </div>
+        <div class="footer__inputs">
+          
+            <div class="input__question">
+            <p class="contuct"> Contact Us</p>
+            <input class="input" name="login" placeholder="Have any questions? Shoot us a message">
+            <div class="footer__left-logos">
+              <a href="#" class="footer__left-logos-img"><img src="./images/whatsapp.svg" alt="#"></a>
+              <a href="#" class="footer__left-logos-img"><img src="./images/telegram.svg" alt="#"></a>
+              <a href="#" class="footer__left-logos-img"><img src="./images/instagram.svg" alt="#"></a>
+              <a href="#" class="footer__left-logos-img"><img src="./images/facebook.svg" alt="#"></a>
+            </div>
+            </div>
+            
+            <form action="https://formspree.io/f/xknkqwvq" method="POST" id="my-form" class="input__register">        
+              <div class="form-group">
+                <input type="text" id="lastName" name="lastName" class="input__name" placeholder="Full name">
+              </div>
+        
+              <div class="form-group">
+                <input type="email" id="email" name="email" class="input__email" placeholder="Email">
+              </div>
+        
+              <div class="form-group">
+                <textarea name="massage" id="massage" cols="30" rows="10" class="input__massage" placeholder="Message"></textarea>
+              </div>
+        
+              <button type="submit" class="input__btn"><p class="send__btn">
+                Send Message
+
+                <img src="./images/arrow.png" alt="">
+            </p></button>
+            <div id="status" class="status"></div>
+            </form>
+          </div>
+          
+          <div class="footer__text">
+            <p class="footer__silk">©2021 SilkRoad. All rights reserved.</p>
+        </div>
+</footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
